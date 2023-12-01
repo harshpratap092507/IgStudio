@@ -1,0 +1,18 @@
+.wrapper {
+  width: 1140px;
+  height: 1228px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px 0;
+}
+.heading {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+}

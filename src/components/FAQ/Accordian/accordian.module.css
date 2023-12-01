@@ -1,0 +1,5 @@
+.accordianContainer {
+  width: 564px;
+  height: 540px;
+  flex-shrink: 0;
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Footer from "./components/Footer/Footer.jsx";
+import SubscribeSection from "./components/SubscibeSection/SubscribeSection.jsx";
+import Introduce from "./components/InroduceSection/IntroduceSection.jsx";
+import ChooseUs from "./components/WhyChooseUs/WhyChooseus.jsx";
+import ClientSeaction from "./components/ClientSection/ClientSection.jsx";
+import Team from "./components/TeamSection/TeamSection.jsx";
+import AreaOfPractice from "./components/AreaOfPractice/AreaOfPractice.jsx";
+import Faq from "./components/FAQ/Faq.jsx";
+import Hero from "./components/Hero/HeroSection/HeroSection.jsx";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Introduce />
+      <ChooseUs />
+      <AreaOfPractice />
+      <ClientSeaction />
+      <Team />
+      <Faq />
+      <SubscribeSection />
+      <Footer />
     </div>
   );
 }

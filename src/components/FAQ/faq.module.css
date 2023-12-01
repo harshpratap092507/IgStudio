@@ -1,0 +1,30 @@
+wrapper {
+  width: 1140px;
+  height: 629px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.023%; /* 74.532px */
+}
+.text {
+  opacity: 0.3;
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+}
+/* .containerTwo {
+  width: 564px;
+  height: 540px;
+  flex-shrink: 0;
+} */
