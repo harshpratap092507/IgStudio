@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./client.module.css";
-import { ReactComponent as YellowButton } from "../../assets/yellowButton.svg";
-import { ReactComponent as WhiteButton } from "../../assets/whiteButton.svg";
-import { ReactComponent as ClientOne } from "../../assets/clientOne.svg";
-import { ReactComponent as ClientTwo } from "../../assets/clientTwo.svg";
-import { ReactComponent as ClientThree } from "../../assets/clientThree.svg";
+import YellowButton from "../../assets/yellowButton.svg";
+import WhiteButton from "../../assets/whiteButton.svg";
+import clientOne from "../../assets/clientOne.svg";
+import clientTwo from "../../assets/clientTwo.svg";
+import clientThree from "../../assets/clientThree.svg";
 
 const ClientSeaction = () => {
   return (
@@ -13,14 +13,14 @@ const ClientSeaction = () => {
         <div className={classes.container}>
           <p className={classes.remark}>What says our happy Clients</p>
           <div className={classes.buttons}>
-            <WhiteButton />
-            <YellowButton />
+            <img src={WhiteButton} alt="btn1" />
+            <img src={YellowButton} alt="btn2" />
           </div>
         </div>
         <div className={classes.cardContainer}>
           <div className={classes.cardContent}>
             <div className={classes.image}>
-              <ClientOne />
+              <img src={clientOne} alt="img1" />
             </div>
             <p className={classes.name}>Jane Cooper</p>
             <p className={classes.companyName}>Ceo of Hunt</p>
@@ -35,7 +35,7 @@ const ClientSeaction = () => {
             style={{ backgroundColor: "rgba(255, 255, 255, 0.10)" }}
           >
             <div className={classes.image}>
-              <ClientTwo />
+              <img src={clientTwo} alt="img2" />
             </div>
             <p className={classes.name}>Devon Lane</p>
             <p className={classes.companyName}>Ceo of Hunt</p>
@@ -47,7 +47,7 @@ const ClientSeaction = () => {
           </div>
           <div className={classes.cardContent}>
             <div className={classes.image}>
-              <ClientThree />
+              <img src={clientThree} alt="img3" />
             </div>
             <p className={classes.name}>Robert Fox</p>
             <p className={classes.companyName}>Ceo of Hunt</p>

@@ -1,11 +1,11 @@
 import React from "react";
 import classes from "./team.module.css";
-import { ReactComponent as MemberOne } from "../../assets/teamMember1.svg";
-import { ReactComponent as MemberTwo } from "../../assets/teamMember2.svg";
-import { ReactComponent as MemberThree } from "../../assets/teamMember3.svg";
-import { ReactComponent as MemberFour } from "../../assets/teamMember4.svg";
-import { ReactComponent as MemberFive } from "../../assets/teamMember5.svg";
-import { ReactComponent as MemberSix } from "../../assets/teamMember6.svg";
+import MemberOne from "../../assets/teamMember1.svg";
+import MemberTwo from "../../assets/teamMember2.svg";
+import MemberThree from "../../assets/teamMember3.svg";
+import MemberFour from "../../assets/teamMember4.svg";
+import MemberFive from "../../assets/teamMember5.svg";
+import MemberSix from "../../assets/teamMember6.svg";
 
 const Team = () => {
   return (
@@ -16,7 +16,7 @@ const Team = () => {
         </div>
         <div className={classes.cardContainer}>
           <div className={classes.cardContent}>
-            <MemberOne className={classes.image} />
+            <img src={MemberOne} className={classes.image} alt="member1" />
             <div className={classes.details}>
               <p className={classes.name}>Danial Def</p>
               <p className={classes.cases}>301 Cases</p>
@@ -27,7 +27,7 @@ const Team = () => {
             className={classes.cardContent}
             style={{ backgroundColor: "#E3B748" }}
           >
-            <MemberTwo className={classes.image} />
+            <img src={MemberTwo} className={classes.image} alt="member2" />
             <div className={classes.details}>
               <p className={classes.name} style={{ color: "#373737" }}>
                 Sanfole
@@ -42,7 +42,7 @@ const Team = () => {
           </div>
 
           <div className={classes.cardContent}>
-            <MemberThree className={classes.image} />
+            <img src={MemberThree} className={classes.image} alt="member3" />
             <div className={classes.details}>
               <p className={classes.name}>Cesforila</p>
               <p className={classes.cases}>470 Cases</p>
@@ -50,7 +50,7 @@ const Team = () => {
           </div>
 
           <div className={classes.cardContent}>
-            <MemberFour className={classes.image} />
+            <img src={MemberFour} className={classes.image} alt="member4" />
             <div className={classes.details}>
               <p className={classes.name}>Colleen</p>
               <p className={classes.cases}>180 Cases</p>
@@ -58,7 +58,7 @@ const Team = () => {
           </div>
 
           <div className={classes.cardContent}>
-            <MemberFive className={classes.image} />
+            <img src={MemberFive} className={classes.image} alt="member5" />
             <div className={classes.details}>
               <p className={classes.name}>Haldone</p>
               <p className={classes.cases}>212 Cases</p>
@@ -66,7 +66,7 @@ const Team = () => {
           </div>
 
           <div className={classes.cardContent}>
-            <MemberSix className={classes.image} />
+            <img src={MemberSix} className={classes.image} alt="member6" />
             <div className={classes.details}>
               <p className={classes.name}>Nik Jeo</p>
               <p className={classes.cases}>250 Cases</p>
